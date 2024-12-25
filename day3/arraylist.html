@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> Javascript Array.forEach()</h2>
+        <p>Calls a fn once for each array element.</p>
+        <p id="demo"></p>
+
+        <script>
+            var txt = "";
+            var numbers = [45,4,9,16,35];
+            numbers.forEach(myFunction);
+            document.getElementById("demo").innerHTML = txt;
+
+            function myFunction(value) {
+                txt = txt + value + "<br>";
+            }
+        </script>
+    </body>
+</html>
