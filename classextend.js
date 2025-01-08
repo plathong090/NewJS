@@ -8,9 +8,9 @@ class Media {
 
 //child class
 class Song extends Media {
-    constructor(sondData) {
-        super(sondData)
-        this.artist = sondData.artist
+    constructor(songData) {
+        super(songData)
+        this.artist = songData.artist
     }
 }
 

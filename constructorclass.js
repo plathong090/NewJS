@@ -7,3 +7,4 @@ class Song {
 
 const mySong = new Song("Bad" , "Sunset");
 console.log(mySong.title);
+console.log(mySong.artist);

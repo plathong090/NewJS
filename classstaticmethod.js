@@ -19,3 +19,4 @@ class Dog {
 const myDog = new Dog("Buster");
 myDog.introduce();
 Dog.bark()
+//Dog.introduce() It's not a funcion
